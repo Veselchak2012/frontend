@@ -1,0 +1,23 @@
+h2 {
+    color: red;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.text {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.chapter {
+    color: #4b0082;
+}
+
+#begin {
+    color: orange;
+    font-weight: bold;
+}

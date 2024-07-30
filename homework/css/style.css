@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 255, 224);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(204, 0, 0);
+}
+
+h2 {
+    font-size: 12pt;
+    text-align: center;
+    color: rgb(204, 0, 0);
+}
+
+.italic {
+    font-style: italic;
+}
