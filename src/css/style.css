@@ -38,6 +38,7 @@ h3 {
     border-color: black; */
     border: 3px solid black;
     margin: 20px;
+    z-index: 3;
 }
 
 .pink {
@@ -54,4 +55,23 @@ img {
     display: block;
     margin: 0 auto;
     width: 500px;
+}
+
+nav {
+    /* static, relative, absolute, fixed, inherit */
+    position: inherit;
+    right: 0px;
+    top: 50px;
+    /* bottom, top, right, left */
+}
+
+.red {
+    position: absolute;
+    left: 80px;
+    background-color: red;
+    z-index: -1;
+}
+
+.example {
+    position: relative;
 }
