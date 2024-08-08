@@ -29,6 +29,7 @@ h3 {
 
 .box {
     display: inline-block;
+    vertical-align: middle;
     width: 300px;
     height: 300px;
     background-color: green;
@@ -38,7 +39,6 @@ h3 {
     border-color: black; */
     border: 3px solid black;
     margin: 20px;
-    z-index: 3;
 }
 
 .pink {
@@ -66,10 +66,8 @@ nav {
 }
 
 .red {
-    position: absolute;
-    left: 80px;
     background-color: red;
-    z-index: -1;
+    height: 100px;
 }
 
 .example {
